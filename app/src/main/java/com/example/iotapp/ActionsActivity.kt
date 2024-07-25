@@ -9,17 +9,16 @@ import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
 import com.example.iotapp.databinding.ActivityActionsBinding
-import com.example.iotapp.databinding.ActivityMain2Binding
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
 
 class ActionsActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityActionsBinding
+
+    //updated commit JMPN
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
